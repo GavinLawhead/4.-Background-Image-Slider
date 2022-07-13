@@ -1,26 +1,10 @@
-.container{
-        display: inline-block;
-        width: 200px;
-        overflow: hidden;
 
-}
 .visible-box{
-    background-color: aqua;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 25%;
     height: 75%;
-    margin: auto;
-    overflow: scroll;
-    justify-content: center;
-    width: max-content;
     display: flex;
-
+    margin-left: 35%;
+    margin-top: 5%
 }
-body{
-    background-color: black;
-    
-}
-
-.card {
-      /* display: grid; */
-  /* grid-gap: 10px; */
-  /* grid-template-columns:5; */
-    }
